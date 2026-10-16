@@ -1,0 +1,64 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.rpv-core__text-layer {
+  display: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 0;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  display: none;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+*:not(.value-scrollbar) {
+  scrollbar-width: thin;
+  scrollbar-color: transparent var(--primary);
+}
+
+*::-webkit-scrollbar {
+  width: 5px;
+  height: 1px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--primary);
+  border-radius: 0;
+  border: none;
+}
+
+.bene_endorse_accordion .chakra-collapse {
+  overflow: visible !important;
+}
+
+.react-calendar {
+  z-index: 9999 !important;
+  position: relative;
+}
+
+.react-daterange-picker__calendar {
+  z-index: 9999 !important;
+}
+
+.value-scrollbar::-webkit-scrollbar {
+  height: 3px !important;
+}
+
+.value-scrollbar::-webkit-scrollbar-track {
+  background: transparent !important;
+}
+.value-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 999px;
+}
